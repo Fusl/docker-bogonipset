@@ -1,3 +1,3 @@
-FROM python:alpine
+FROM alpine:edge
 ADD files /
 ENTRYPOINT /generate.sh
